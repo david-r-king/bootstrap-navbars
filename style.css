@@ -1,11 +1,9 @@
-#boardroom {
-  background-color: #133B40;
-  color: white;
+/* Morning Brew */
+.morning-brew-nav {
+  border-top: 1px solid #e5e5e5;
 }
-#boardroom i { color: white; }
 
-
-#morningbrew .nav-item {
+.nav-item {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 2px;
@@ -16,15 +14,45 @@
   font-size: 18px;
   cursor: pointer !important;
 }
-#morningbrew .nav-item.active {
+
+.nav-item.active {
   color: black;
-  padding-top: 0px;
+  padding-top: 0;
 }
-#morningbrew img {               
-  height: 28px;
-  width: auto;
-  display: inline-block;
+
+/* Buzz’s full width (white text, full page width) */
+.bg-buzz {
+  background-color: rgb(48, 73, 95);
 }
-#morningbrew .navbar {           
-  border-top: 1px solid #e5e5e5;
+
+#buzz h1,
+#buzz h4 {
+  color: white;
+}
+
+/* Aloha Beer */
+#aloha {
+  background-color: #fff;
+}
+
+#aloha span {
+  font-weight: 500;
+  color: black;
+}
+
+#aloha span[style*="#EDC601"] {
+  color: #EDC601;
+}
+
+/* Duke’s Waikiki */
+.bg-dukes {
+  background-color: #017574;
+}
+
+.bg-dukes h5 {
+  color: white;
+}
+
+.bg-dukes h5.text-warning {
+  color: #F1A228 !important;
 }
