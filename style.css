@@ -1,11 +1,10 @@
-/* Boardroom (dark bar) */
 #boardroom {
   background-color: #133B40;
   color: white;
 }
 #boardroom i { color: white; }
 
-/* Morning Brew menu items — EXACT values from the handout */
+
 #morningbrew .nav-item {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -21,13 +20,11 @@
   color: black;
   padding-top: 0px;
 }
-
-/* Tiny, scoped additions so your local assets match the demo exactly */
-#morningbrew img {               /* keeps the MB logo the spec’d size */
+#morningbrew img {               
   height: 28px;
   width: auto;
   display: inline-block;
 }
-#morningbrew .navbar {           /* thin hairline above the menu row */
+#morningbrew .navbar {           
   border-top: 1px solid #e5e5e5;
 }
