@@ -1,4 +1,3 @@
-/* Morning Brew */
 .morning-brew-nav {
   border-top: 1px solid #e5e5e5;
 }
@@ -20,7 +19,6 @@
   padding-top: 0;
 }
 
-/* Buzz’s full width (white text, full page width) */
 .bg-buzz {
   background-color: rgb(48, 73, 95);
 }
@@ -30,7 +28,6 @@
   color: white;
 }
 
-/* Aloha Beer */
 #aloha {
   background-color: #fff;
 }
@@ -44,7 +41,6 @@
   color: #EDC601;
 }
 
-/* Duke’s Waikiki */
 .bg-dukes {
   background-color: #017574;
 }
